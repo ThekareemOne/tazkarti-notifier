@@ -4,8 +4,7 @@
   "description": "Monitors tazkarti.com for new matches and sends WhatsApp notifications",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "postinstall": "playwright install --with-deps chromium"
+    "start": "node index.js"
   },
   "dependencies": {
     "axios": "^1.7.2",

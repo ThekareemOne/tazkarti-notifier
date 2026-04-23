@@ -1,0 +1,17 @@
+{
+  "name": "tazkarti-notifier",
+  "version": "1.0.0",
+  "description": "Monitors tazkarti.com for new matches and sends WhatsApp notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "playwright": "^1.44.1"
+  }
+}
